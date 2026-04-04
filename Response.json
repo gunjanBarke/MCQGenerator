@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What is Natural Language Processing (NLP)?",
+    "options": [
+      "A subfield of mathematics",
+      "The processing of natural language information by a computer",
+      "A type of machine learning algorithm",
+      "A branch of physics"
+    ],
+    "correct_answer": "The processing of natural language information by a computer",
+    "explanation": "NLP is defined as the processing of natural language information by a computer, making it a subfield of computer science."
+  },
+  {
+    "question": "What are the major processing tasks in an NLP system?",
+    "options": [
+      "Speech recognition, image processing, and natural language understanding",
+      "Text classification, natural language generation, and machine learning",
+      "Speech recognition, text classification, natural language understanding, and natural language generation",
+      "Data mining, web development, and networking"
+    ],
+    "correct_answer": "Speech recognition, text classification, natural language understanding, and natural language generation",
+    "explanation": "The major processing tasks in an NLP system include speech recognition, text classification, natural language understanding, and natural language generation."
+  },
+  {
+    "question": "When did Natural Language Processing have its roots?",
+    "options": [
+      "1960s",
+      "1970s",
+      "1950s",
+      "1980s"
+    ],
+    "correct_answer": "1950s",
+    "explanation": "Natural Language Processing has its roots in the 1950s, as mentioned in the text."
+  },
+  {
+    "question": "What is NLP closely associated with?",
+    "options": [
+      "Computer hardware",
+      "Artificial intelligence",
+      "Network security",
+      "Data analysis"
+    ],
+    "correct_answer": "Artificial intelligence",
+    "explanation": "NLP is closely associated with artificial intelligence, as it is a subfield of computer science that deals with the interaction between computers and humans in natural language."
+  },
+  {
+    "question": "Who is mentioned in the text as a key figure in the history of NLP?",
+    "options": [
+      "Alan Turing",
+      "Marvin Minsky",
+      "John McCarthy",
+      "Frank Rosenblatt"
+    ],
+    "correct_answer": "Alan Turing",
+    "explanation": "Alan Turing is mentioned in the text as a key figure in the history of NLP, specifically in the 1950s."
+  }
+]

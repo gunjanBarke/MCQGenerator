@@ -1,10 +1,23 @@
-streamlit
+# ── LangChain ─────────────────────────────────────────────
 langchain
 langchain-groq
 langchain-community
 langchain-core
+langgraph
 langchain-text-splitters
+
+# ── Streamlit ─────────────────────────────────────────────
+streamlit
+
+# ── Document Loaders ──────────────────────────────────────
 pypdf
 docx2txt
+beautifulsoup4
+requests
+
+# ── Data & Utils ──────────────────────────────────────────
 pandas
 python-dotenv
+
+# ── Setup ─────────────────────────────────────────────────
+setuptools
