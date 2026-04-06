@@ -14,7 +14,7 @@ An end-to-end Automated MCQ Generator built using **LangChain + Groq API + Strea
 ![Table View](screenshots/table_view.png)
 
 ### ⬇️ Download Section
-![downloaded_MCQ_inJSON](screenshots/downloaded_MCQ_inJSON.png)
+![download_in_JSON](screenshots/download_in_JSON.png)
 
 ### testing section
 ![testing](screenshots/testing.png)
