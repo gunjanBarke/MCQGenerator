@@ -2,6 +2,19 @@
 
 An end-to-end Automated MCQ Generator built using **LangChain + Groq API + Streamlit**.
 
+## 🖼️ Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/home.png)
+
+### 🎮 Quiz Mode
+![Quiz Mode](screenshots/quiz_mode.png)
+
+### 📊 Table View
+![Table View](screenshots/table_view.png)
+
+### ⬇️ Download Section
+![Download](screenshots/download.png)
 ---
 
 ## 🚀 Features
