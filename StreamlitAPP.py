@@ -19,7 +19,7 @@ with st.sidebar:
     st.header("⚙️ Settings")
 
     default_key = os.getenv("GROQ_API_KEY", "")
-    groq_api_key = st.text_input("🔑 Groq API Key", value=default_key, type="password")
+    groq_api_key = st.text_input("🔑 Groq API Key", placeholder="Leave empty to use .env key", type="password")
     
     model = st.selectbox("🤖 Model", [
         "llama-3.3-70b-versatile",
@@ -35,6 +35,9 @@ with st.sidebar:
     difficulty = st.selectbox("Difficulty", ["Easy", "Medium", "Hard"])
     num_options = st.selectbox("Options per Question", [3, 4, 5], index=1)
     subject = st.text_input("📚 Subject Filter (optional)", placeholder="e.g. Machine Learning")
+
+# ✅ Resolve key AFTER sidebar — outside the with block
+groq_api_key = groq_api_key.strip() if groq_api_key.strip() else os.getenv("GROQ_API_KEY", "")
 
 # ── Input Type Selection ──────────────────────────────────
 st.subheader("📂 Upload Document")
@@ -219,7 +222,7 @@ if st.session_state.mcqs:
         st.subheader("📊 All MCQs Overview")
         table_data = get_table_data(mcqs)
         df = pd.DataFrame(table_data)
-        st.dataframe(df, use_container_width=True)
+        st.dataframe(df, use_container_width=True, hide_index=True)
 
     # ── Download Section ──────────────────────────────────
     st.divider()
