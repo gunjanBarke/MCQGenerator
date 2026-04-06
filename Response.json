@@ -1,57 +1,62 @@
 [
   {
-    "question": "What is Natural Language Processing (NLP)?",
+    "question": "What is the primary focus of Natural Language Processing?",
     "options": [
-      "A subfield of mathematics",
-      "The processing of natural language information by a computer",
-      "A type of machine learning algorithm",
-      "A branch of physics"
+      "Machine Learning",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Data Mining",
+      "Artificial Intelligence"
     ],
-    "correct_answer": "The processing of natural language information by a computer",
-    "explanation": "NLP is defined as the processing of natural language information by a computer, making it a subfield of computer science."
+    "correct_answer": "Natural Language Processing",
+    "explanation": "Natural Language Processing is a field of study that focuses on the interaction between computers and humans in natural language."
   },
   {
-    "question": "What are the major processing tasks in an NLP system?",
+    "question": "Which of the following approaches to NLP emerged in the 1990s?",
     "options": [
-      "Speech recognition, image processing, and natural language understanding",
-      "Text classification, natural language generation, and machine learning",
-      "Speech recognition, text classification, natural language understanding, and natural language generation",
-      "Data mining, web development, and networking"
+      "Symbolic NLP",
+      "Statistical NLP",
+      "Neural Networks",
+      "Deep Learning",
+      "Machine Learning"
     ],
-    "correct_answer": "Speech recognition, text classification, natural language understanding, and natural language generation",
-    "explanation": "The major processing tasks in an NLP system include speech recognition, text classification, natural language understanding, and natural language generation."
+    "correct_answer": "Statistical NLP",
+    "explanation": "Statistical NLP emerged in the 1990s as a new approach to natural language processing, focusing on statistical models and machine learning algorithms."
   },
   {
-    "question": "When did Natural Language Processing have its roots?",
+    "question": "What is the term for the study of the meaning of individual words in context?",
     "options": [
-      "1960s",
-      "1970s",
-      "1950s",
-      "1980s"
+      "Lexical Semantics",
+      "Relational Semantics",
+      "Discourse Analysis",
+      "Syntactic Analysis",
+      "Morphological Analysis"
     ],
-    "correct_answer": "1950s",
-    "explanation": "Natural Language Processing has its roots in the 1950s, as mentioned in the text."
+    "correct_answer": "Lexical Semantics",
+    "explanation": "Lexical semantics is the study of the meaning of individual words in context, examining how words convey meaning in language."
   },
   {
-    "question": "What is NLP closely associated with?",
+    "question": "Which of the following is a common NLP task?",
     "options": [
-      "Computer hardware",
-      "Artificial intelligence",
-      "Network security",
-      "Data analysis"
+      "Text and Speech Processing",
+      "Image Recognition",
+      "Data Mining",
+      "Machine Learning",
+      "Computer Vision"
     ],
-    "correct_answer": "Artificial intelligence",
-    "explanation": "NLP is closely associated with artificial intelligence, as it is a subfield of computer science that deals with the interaction between computers and humans in natural language."
+    "correct_answer": "Text and Speech Processing",
+    "explanation": "Text and speech processing is a common NLP task that involves analyzing and processing human language in the form of text or speech."
   },
   {
-    "question": "Who is mentioned in the text as a key figure in the history of NLP?",
+    "question": "What is the term for the study of semantics beyond individual sentences?",
     "options": [
-      "Alan Turing",
-      "Marvin Minsky",
-      "John McCarthy",
-      "Frank Rosenblatt"
+      "Discourse Analysis",
+      "Relational Semantics",
+      "Lexical Semantics",
+      "Syntactic Analysis",
+      "Morphological Analysis"
     ],
-    "correct_answer": "Alan Turing",
-    "explanation": "Alan Turing is mentioned in the text as a key figure in the history of NLP, specifically in the 1950s."
+    "correct_answer": "Discourse Analysis",
+    "explanation": "Discourse analysis is the study of semantics beyond individual sentences, examining how language is used in context to convey meaning and create coherent discourse."
   }
 ]
