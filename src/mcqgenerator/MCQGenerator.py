@@ -30,7 +30,12 @@ def generate_mcqs(
 ):
     try:
         # ── Use key from UI, fallback to .env ─────────────
-        api_key = groq_api_key.strip() if groq_api_key.strip() else os.getenv("GROQ_API_KEY")
+        import streamlit as st
+        api_key = (
+groq_api_key.strip() if groq_api_key and groq_api_key.strip()
+    else st.secrets.get("GROQ_API_KEY")
+    or os.getenv("GROQ_API_KEY")
+)
 
         if not api_key:
             raise ValueError("Groq API key not found!")

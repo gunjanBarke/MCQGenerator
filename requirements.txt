@@ -1,6 +1,6 @@
 # ── LangChain ─────────────────────────────────────────────
-langchain
-langchain-groq
+langchain==1.2.14
+langchain-groq==1.1.2
 langchain-community
 langchain-core
 langgraph
