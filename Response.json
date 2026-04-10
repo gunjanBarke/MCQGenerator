@@ -1,17 +1,17 @@
 [
   {
-    "question": "What is the main topic of the article?",
+    "question": "What is Natural Language Processing?",
     "options": [
-      "Natural Language Processing",
-      "Computer Vision",
-      "Machine Learning",
-      "Artificial Intelligence"
+      "Processing of natural images by a computer",
+      "Processing of natural language by a computer",
+      "Processing of natural sounds by a computer",
+      "Processing of natural videos by a computer"
     ],
-    "correct_answer": "Natural Language Processing",
-    "explanation": "The article is about Natural Language Processing, which is a subfield of artificial intelligence that deals with the interaction between computers and humans in natural language."
+    "correct_answer": "Processing of natural language by a computer",
+    "explanation": "Natural Language Processing refers to the processing of natural language by a computer, as stated in the given text."
   },
   {
-    "question": "What is the decade when Statistical NLP started?",
+    "question": "In which decade did Statistical NLP start?",
     "options": [
       "1950s",
       "1960s",
@@ -19,39 +19,39 @@
       "1990s"
     ],
     "correct_answer": "1990s",
-    "explanation": "According to the article, Statistical NLP started in the 1990s."
+    "explanation": "According to the text, Statistical NLP started in the 1990s."
   },
   {
-    "question": "What are the three approaches to NLP mentioned in the article?",
+    "question": "What are the three approaches to NLP mentioned in the text?",
     "options": [
-      "Symbolic, Statistical, Deep Learning",
-      "Symbolic, Statistical, Neural Networks",
-      "Statistical, Neural Networks, Machine Learning",
-      "Symbolic, Neural Networks, Deep Learning"
+      "Symbolic, statistical, machine learning",
+      "Symbolic, statistical, neural networks",
+      "Statistical, neural networks, deep learning",
+      "Machine learning, deep learning, neural networks"
     ],
-    "correct_answer": "Symbolic, Statistical, Neural Networks",
-    "explanation": "The article mentions Symbolic, Statistical, and Neural Networks as the three approaches to NLP."
+    "correct_answer": "Symbolic, statistical, neural networks",
+    "explanation": "The text mentions that the approaches to NLP are Symbolic, statistical, and neural networks."
   },
   {
-    "question": "What is one of the common NLP tasks mentioned in the article?",
+    "question": "What is one of the common NLP tasks mentioned in the text?",
     "options": [
-      "Text and Image Processing",
-      "Speech and Voice Recognition",
-      "Text and Speech Processing",
-      "Image and Voice Recognition"
+      "Image processing",
+      "Speech recognition",
+      "Text and speech processing",
+      "Video analysis"
     ],
-    "correct_answer": "Text and Speech Processing",
-    "explanation": "The article mentions Text and Speech Processing as one of the common NLP tasks."
+    "correct_answer": "Text and speech processing",
+    "explanation": "The text mentions that one of the common NLP tasks is text and speech processing."
   },
   {
-    "question": "What is the language in which the article is primarily written?",
+    "question": "How many languages is the Natural Language Processing article available in?",
     "options": [
-      "Spanish",
-      "French",
-      "English",
-      "German"
+      "50 languages",
+      "60 languages",
+      "70 languages",
+      "71 languages"
     ],
-    "correct_answer": "English",
-    "explanation": "The article is primarily written in English."
+    "correct_answer": "71 languages",
+    "explanation": "According to the text, the Natural Language Processing article is available in 71 languages."
   }
 ]
