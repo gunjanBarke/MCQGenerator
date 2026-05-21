@@ -1,6 +1,8 @@
 # 📝 MCQ Generator
 
 An end-to-end Automated MCQ Generator built using **LangChain + Groq API + Streamlit**.
+> 🤖 Built using **LangGraph (create_react_agent)** for modern agentic workflow — 
+> migrated from deprecated AgentExecutor architecture.
 
 ## 🖼️ Screenshots
 
@@ -33,6 +35,7 @@ An end-to-end Automated MCQ Generator built using **LangChain + Groq API + Strea
 
 ## 🛠️ Tech Stack
 - [LangChain](https://langchain.com)
+- [LangGraph](https://langchain-ai.github.io/langgraph/) — `create_react_agent` for agentic workflow (migrated from AgentExecutor)
 - [Groq API](https://console.groq.com) (Free — LLaMA3, Mixtral)
 - [Streamlit](https://streamlit.io)
 - PyPDF, Docx2txt
