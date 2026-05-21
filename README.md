@@ -3,7 +3,7 @@
 An end-to-end Automated MCQ Generator built using **LangChain + Groq API + Streamlit**.
 > 🤖 Built using **LangGraph (create_react_agent)** for modern agentic workflow — 
 > migrated from deprecated AgentExecutor architecture.
-
+```
 ## 📁 Project Structure
 
 MCQGenerator/
@@ -17,7 +17,7 @@ MCQGenerator/
 ├── requirements.txt
 ├── setup.py
 └── .env                      ← API key (not committed)
-
+```
 ## 🧠 How It Works
 
 1. **Input** — User uploads PDF/TXT/DOCX/CSV or pastes a URL
