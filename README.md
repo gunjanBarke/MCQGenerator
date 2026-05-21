@@ -4,6 +4,29 @@ An end-to-end Automated MCQ Generator built using **LangChain + Groq API + Strea
 > 🤖 Built using **LangGraph (create_react_agent)** for modern agentic workflow — 
 > migrated from deprecated AgentExecutor architecture.
 
+## 📁 Project Structure
+
+MCQGenerator/
+├── src/
+│   └── mcqgenerator/
+│       ├── MCQGenerator.py   ← core LangChain + Groq logic
+│       └── utils.py          ← file reading, table formatting
+├── screenshots/              ← app screenshots
+├── experiment/               ← Jupyter notebooks (experiments)
+├── StreamlitAPP.py           ← main Streamlit UI
+├── requirements.txt
+├── setup.py
+└── .env                      ← API key (not committed)
+
+## 🧠 How It Works
+
+1. **Input** — User uploads PDF/TXT/DOCX/CSV or pastes a URL
+2. **Text Extraction** — File is read using PyPDF / Docx2txt / BeautifulSoup
+3. **LangGraph Agent** — `create_react_agent` orchestrates the generation workflow
+4. **Prompt Engineering** — Custom prompt sent to Groq LLM (LLaMA 3.3 70B)
+5. **JSON Parsing** — Output parsed into structured MCQ format
+6. **Streamlit UI** — Quiz mode, table view, and download rendered live
+
 ## 🖼️ Screenshots
 
 ### 🏠 Home Page
