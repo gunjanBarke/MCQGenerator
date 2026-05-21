@@ -3,9 +3,9 @@
 An end-to-end Automated MCQ Generator built using **LangChain + Groq API + Streamlit**.
 > 🤖 Built using **LangGraph (create_react_agent)** for modern agentic workflow — 
 > migrated from deprecated AgentExecutor architecture.
-```
-## 📁 Project Structure
 
+## 📁 Project Structure
+```
 MCQGenerator/
 ├── src/
 │   └── mcqgenerator/
